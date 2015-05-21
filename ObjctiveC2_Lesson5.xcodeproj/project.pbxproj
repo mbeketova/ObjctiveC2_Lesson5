@@ -14,6 +14,7 @@
 		849C458B1B0CE47800FE261B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849C458A1B0CE47800FE261B /* Images.xcassets */; };
 		849C458E1B0CE47800FE261B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849C458C1B0CE47800FE261B /* LaunchScreen.xib */; };
 		849C459A1B0CE47800FE261B /* ObjctiveC2_Lesson5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C45991B0CE47800FE261B /* ObjctiveC2_Lesson5Tests.m */; };
+		849C45A61B0D38E900FE261B /* ViewControllerPrimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C45A51B0D38E900FE261B /* ViewControllerPrimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		849C45931B0CE47800FE261B /* ObjctiveC2_Lesson5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjctiveC2_Lesson5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C45981B0CE47800FE261B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849C45991B0CE47800FE261B /* ObjctiveC2_Lesson5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjctiveC2_Lesson5Tests.m; sourceTree = "<group>"; };
+		849C45A41B0D38E900FE261B /* ViewControllerPrimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerPrimer.h; sourceTree = "<group>"; };
+		849C45A51B0D38E900FE261B /* ViewControllerPrimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPrimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,9 @@
 				849C45821B0CE47800FE261B /* AppDelegate.m */,
 				849C45841B0CE47800FE261B /* ViewController.h */,
 				849C45851B0CE47800FE261B /* ViewController.m */,
+				849C45A41B0D38E900FE261B /* ViewControllerPrimer.h */,
+				849C45A51B0D38E900FE261B /* ViewControllerPrimer.m */,
+				849C45A31B0D38C300FE261B /* Primer */,
 				849C45871B0CE47800FE261B /* Main.storyboard */,
 				849C458A1B0CE47800FE261B /* Images.xcassets */,
 				849C458C1B0CE47800FE261B /* LaunchScreen.xib */,
@@ -117,6 +123,13 @@
 				849C45981B0CE47800FE261B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849C45A31B0D38C300FE261B /* Primer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Primer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				849C45861B0CE47800FE261B /* ViewController.m in Sources */,
 				849C45831B0CE47800FE261B /* AppDelegate.m in Sources */,
 				849C45801B0CE47800FE261B /* main.m in Sources */,
+				849C45A61B0D38E900FE261B /* ViewControllerPrimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
